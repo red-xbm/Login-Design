@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: auto;
+    background-image: url(imgs/mn.jpg)  ;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Ysabeau', sans-serif;
+
+}
+.the-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 160px 0;
+    color: white;
+}
+.the-one p:first-child {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.the-one p:nth-child(2) {
+    font-size: 37px;
+    padding-bottom: 10px;
+}
+.the-one span:nth-child(3), 
+.the-one span:nth-child(4) {
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.the-one span:nth-child(3) img, 
+.the-one span:nth-child(4) img {
+    width: 23px;
+    margin: 0 15px 0 5px;
+}
+.the-one span:nth-child(3) input, 
+.the-one span:nth-child(4) input{
+    border: none;
+    color: rgb(0, 0, 0);
+    background: none;
+    width: 300px;
+    font-size: 14px;
+    outline: none;
+}
+.the-one a:nth-child(5) {
+    width: 360px;
+    border-radius: 30px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+div:nth-child(6) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 25%;
+}
+div:nth-child(6) a {
+    text-decoration: none;
+    border-bottom: 1px white solid;
+    color: white;
+}
+
+.dev{
+    color: white;
+    text-align: center;
+    font: 13px;
+    padding: 10px 0;
+}
+.dev a {
+    text-decoration: none;
+    border-bottom: white 1px solid;
+    color: #a0bdd3;
+}
