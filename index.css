@@ -85,7 +85,7 @@ div:nth-child(6) a {
 @media screen and (max-width: 768px)
     {
         .the-one {
-            margin: 237px 2%;
+            margin: 230px 2%;
         }
         .the-one span:nth-child(3) input, 
         .the-one span:nth-child(4) input {
@@ -93,7 +93,7 @@ div:nth-child(6) a {
             font-size: 13px;
         }
         .the-one a:nth-child(5) {
-            width: 315px;
+            width: 313px;
         }
         div:nth-child(6) {
             display: flex;
